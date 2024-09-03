@@ -1,0 +1,35 @@
+p{
+    font-size: 900;
+}
+
+.item1 {grid-area: header}
+.item2 {grid-area: side}
+.item3 {grid-area: right;}
+.item4 {grid-area: right2;}
+.grid-container{
+    display:grid;
+    grid-template-areas: 'header header header header'
+                            'side right right right'
+                            'side right2 right2 right2';
+                            
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(62, 247, 247);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+article {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+main {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(180, 116, 240);
+}
+}
