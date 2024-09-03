@@ -16,13 +16,13 @@ p{
 header{
     display: flex;
     justify-content: center;
-    background-color: rgb(62, 247, 247);
+    background-color: rgb(165, 172, 149);
 }
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgb(202, 120, 109);
 }
 article {
     display: flex;
